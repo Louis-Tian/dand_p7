@@ -42,9 +42,10 @@ I would launch the experiment if the net conversion is both statistically and pr
 | Retention | 0.0549 | No |
 | Net conversion | 0.0156 | Yes |
 
-The analytical estimate tends to be near the empirically estimates when the unit of diversion is the
-same as the unit of analysis (number of unique cookies). Hence, I expect the estimate for gross conversion and net Conversion to be comparable to empirical estimate. And the empirical and analytical estimate for Retention is not likely to be comparable, because the unit of analysis ( number of unique user id) is different to the
-unit of diversion.
+The analytical estimate tends to be comparable to the empirically estimates when the unit of diversion and
+the unit of analysis are the same.
+
+Hence, I expect the estimate for gross conversion and net Conversion to be comparable to empirical estimate. Similarly, the empirical and analytical estimate for retention are not likely to be comparable, because the unit of analysis ( number of unique user id) is different to the unit of diversion.
 
 ### Sizing
 #### Number of Samples vs. Power
@@ -108,7 +109,7 @@ There is no discrepancy between the effect size test and sign test. The differen
 
 Based on the result, I do *NOT* recommend launch the experiment.
 
-While the gross conversion did decrease as expected.  Obviously, our goal here is not to decrease the gross conversion (we would always want higher gross conversion given everything stays the same). The experiment aims to increase in retention significantly while hoping than the gross conversion didn't change much, and hence results in higher net conversion. Given that the increase in Net conversion is not significant, I will not launch the experiment.
+While the gross conversion did decrease as expected. Obviously, our goal here is not to decrease the gross conversion (we would always want higher gross conversion given everything stays the same). The experiment aims to increase in retention significantly while hoping than the gross conversion didn't change much, and hence results in higher net conversion. Given that the increase in Net conversion is not significant, I will not launch the experiment.
 
 ## Follow-Up Experiment
 >Give a high-level description of the follow-up experiment you would run, what your hypothesis would be, what metrics you would want to measure, what your unit of diversion would be, and your reasoning for these choices.
